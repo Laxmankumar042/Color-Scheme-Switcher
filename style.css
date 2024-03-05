@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 90vw;
+}
+.title{
+    font-size: 2rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2rem;
+    text-align: center;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    margin-left: 1rem;
+    border-radius: 20%;
+}
+#button-1{
+    background-color: red;
+    border: 5px solid black;
+}
+#button-2{
+    background-color: blue;
+    border: 5px solid black;
+
+    
+}
+#button-3{
+    background-color: green;
+    border: 5px solid black;
+
+
+}
+#button-4{
+    background-color: yellow;
+    border: 5px solid black;
+
+}
+#button-5{
+    background-color: black;
+    border: 5px solid rgb(121, 118, 118);
+    color: white;
+
+}
+#button-6{
+    background-color: pink;
+    border: 5px solid black;
+
+}
+.dic{
+    text-align: center;
+}
+.button-cont{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
